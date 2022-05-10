@@ -12,6 +12,8 @@ color: black;
 
 Background-Images können mittels `background-image` oder `img` tag eingefügt werden. Sie können dann lokal gespeichert in img Ordner oder mit Weblink unter `url` oder `src` beigefügt werden.
 
+Background kann auch unterschiedliche Farben oder Bilder haben. Will man zwei Bilder nebeneinander kann man das so machen `background-image: url("img_tree.gif"), url("paper.gif");`. Danach gibt man an ob Bilder wiederholt werden sollen, mit `background-repeate` und no-repeate oder repeate.
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -27,5 +29,3 @@ Background-Images können mittels `background-image` oder `img` tag eingefügt w
         />
     </body>
 </html>
-
-Background kann auch unterschiedliche Farben oder Bilder haben. Will man zwei Bilder nebeneinander kann man das so machen `background-image: url("img_tree.gif"), url("paper.gif");`. Danach gibt man an ob Bilder wiederholt werden sollen, mit `background-repeate` und no-repeate oder repeate.
