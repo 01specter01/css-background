@@ -3,12 +3,12 @@
 Ein Background kann genutzt werden um Webseiten besser sichtbar, wie auch angenehmer für das Auge zu machen.
 Bei einem farbigen Hintergrund sollte der Inhalt der Seite nicht änlich farbig sein wie der Hintergrund.
 
-## hier das Beispiel:
+## Beispiel:
 
 background: green;
 color: black;
 
-# Background-Image
+## Background-Image
 
 Background-Images können mittels `background-image` oder `img` tag eingefügt werden. Sie können dann lokal gespeichert in img Ordner oder mit Weblink unter `url` oder `src` beigefügt werden.
 
@@ -27,3 +27,5 @@ Background-Images können mittels `background-image` oder `img` tag eingefügt w
         />
     </body>
 </html>
+
+Background kann auch unterschiedliche Farben oder Bilder haben. Will man zwei Bilder nebeneinander kann man das so machen `background-image: url("img_tree.gif"), url("paper.gif");`. Danach gibt man an ob Bilder wiederholt werden sollen, mit `background-repeate` und no-repeate oder repeate.
